@@ -1,0 +1,15 @@
+.app__body {
+  display: flex;
+  /* justify-content: space-between; */
+  /* min-width: 100vw; */
+}
+
+.app__sidebar {
+  flex: 0.3;
+}
+
+.app__conversationScreen {
+  flex: 0.7;
+  margin-right: auto;
+  margin-left: 0;
+}

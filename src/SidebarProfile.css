@@ -1,0 +1,45 @@
+.sidebar-profile {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  /* max-width: inherit; */
+  background-color: #350d36;
+  color: white;
+  border-top: 1px solid rgb(82, 38, 83);
+  border-bottom: 1px solid rgb(82, 38, 83);
+}
+
+.sidebar-profile__user {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-profile__user > .sidebar-user__name > h5 {
+  font-weight: lighter;
+  font-size: 80%;
+}
+
+.sidebar-profile__workspace > .sidebar-workspace__name > h4 {
+  text-overflow: ellipsis;
+  font-size: 90%;
+}
+
+.sidebar-profile__workspace {
+  flex: 1;
+  overflow: hidden;
+}
+
+.sidebar-profile__status {
+  color: green;
+}
+
+.sidebar-profile__newMessage {
+  border-radius: 100%;
+  background-color: white;
+  padding: 5px 6.5px;
+  /* font-size: 18px; */
+}
+
+.sidebar-profile__messageIcon {
+  color: #350d36;
+}

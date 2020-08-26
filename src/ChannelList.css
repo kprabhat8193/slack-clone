@@ -1,0 +1,20 @@
+.sidebar__channelList {
+  padding: 15px;
+  border-top: 1px solid rgb(82, 38, 83);
+  border-bottom: 1px solid rgb(82, 38, 83);
+}
+
+.channelList__header {
+  display: flex;
+  align-items: center;
+}
+
+.channelList__header > h5 {
+  flex: 1;
+  padding: 5px;
+}
+/* 
+.channelList__header > .channelList__addIcon {
+  flex: 1;
+  margin-left: auto;
+} */

@@ -1,0 +1,19 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.sidebarOption__name > h5 {
+  margin-left: 5px;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none; /* no underline */
+  color: inherit;
+}
+
+a :hover {
+  background-color: rgb(67, 30, 68);
+}

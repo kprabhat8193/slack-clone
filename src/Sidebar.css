@@ -1,0 +1,23 @@
+.sidebarContainer {
+  background-color: #350d36;
+  color: white;
+  border-top: 1px solid rgb(82, 38, 83);
+  border-bottom: 1px solid rgb(82, 38, 83);
+  max-width: 30vw;
+  min-width: 20vw;
+  min-height: 95vh;
+}
+
+.sidebarContainer__scrollable:hover::-webkit-scrollbar-thumb {
+  display: block;
+}
+
+.sidebarContainer__scrollable {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 86.5vh;
+}
+
+.sidebarContainer ::-webkit-scrollbar {
+  display: none;
+}
